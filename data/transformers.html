@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Transformer Architecture</title>
+</head>
+<body>
+
+<h1>Transformer Architecture</h1>
+
+<p>The Transformer architecture was introduced in the paper "Attention Is All You Need". It revolutionized natural language processing by replacing recurrent neural networks with attention mechanisms.</p>
+
+<h2>Self-Attention</h2>
+
+<p>Self-attention allows a model to determine how important each word is relative to every other word in a sequence.</p>
+
+<h2>Query, Key, and Value</h2>
+
+<p>Each token is transformed into Query (Q), Key (K), and Value (V) vectors.</p>
+
+<ul>
+<li>Query represents what the token is looking for.</li>
+<li>Key represents what the token contains.</li>
+<li>Value represents the information carried by the token.</li>
+</ul>
+
+<h2>Attention Score</h2>
+
+<p>Attention scores are calculated using Query and Key vectors. Higher scores indicate stronger relevance between tokens.</p>
+
+<h2>Multi-Head Attention</h2>
+
+<p>Multi-head attention allows the model to focus on multiple relationships simultaneously, improving contextual understanding.</p>
+
+<h2>Positional Encoding</h2>
+
+<p>Since Transformers process tokens in parallel, positional encodings provide information about token order.</p>
+
+<h2>Encoder</h2>
+
+<p>The encoder processes input text and generates contextual representations. It consists of self-attention layers and feed-forward networks.</p>
+
+<h2>Decoder</h2>
+
+<p>The decoder generates output tokens using encoder outputs and previously generated tokens.</p>
+
+<h2>Feed-Forward Networks</h2>
+
+<p>Each Transformer layer includes fully connected feed-forward networks that further transform token representations.</p>
+
+<h2>Applications</h2>
+
+<ul>
+<li>Machine Translation</li>
+<li>Question Answering</li>
+<li>Text Summarization</li>
+<li>Chatbots</li>
+<li>Code Generation</li>
+</ul>
+
+<h2>Conclusion</h2>
+
+<p>Transformers have become the foundation of modern large language models such as GPT, BERT, and Llama.</p>
+
+</body>
+</html>

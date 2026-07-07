@@ -1,0 +1,34 @@
+{
+    "metrics": {
+        "Total Questions": 2,
+        "Hit Rate": 1.0,
+        "Recall@3": 1.0,
+        "MRR": 1.0
+    },
+    "results": [
+        {
+            "question": "What is Retrieval Augmented Generation?",
+            "expected_source": "rag.md",
+            "retrieved_sources": [
+                "rag.md",
+                "rag.md",
+                "rag.md"
+            ],
+            "answer": "Retrieval-Augmented Generation (RAG) is a technique that integrates information retrieval with large language models (LLMs). Instead of solely depending on the knowledge acquired during its training phase, a RAG system actively retrieves relevant documents or data and utilizes this external information as context to generate more accurate and grounded answers.\n\nThis approach is crucial because it allows the language model to produce responses that are based on up-to-date and specific external data, rather than just its internal, potentially outdated, training data. By combining retrieval and generation, RAG aims to create AI systems that are more reliable and factual, making them particularly useful in applications like enterprise search, document assistants, and knowledge management.",
+            "latency": 0.05394124984741211,
+            "token_usage": "Not Available"
+        },
+        {
+            "question": "What are embeddings?",
+            "expected_source": "rag.md",
+            "retrieved_sources": [
+                "rag.md",
+                "rag.md",
+                "llm_intro.pdf"
+            ],
+            "answer": "Embeddings are dense vector representations of text. Essentially, they convert textual information into numerical vectors, where each vector captures the semantic meaning of the text. A key characteristic of embeddings is that similar pieces of text will produce similar vectors in the embedding space, meaning their numerical representations will be close to each other. This allows systems to understand and compare the meaning of different texts by analyzing their corresponding vectors.",
+            "latency": 0.0319972038269043,
+            "token_usage": "Not Available"
+        }
+    ]
+}

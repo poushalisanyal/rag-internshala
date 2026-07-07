@@ -1,0 +1,10 @@
+[
+    {
+        "question": "What is Retrieval Augmented Generation?",
+        "source": "rag.md"
+    },
+    {
+        "question": "What are embeddings?",
+        "source": "rag.md"
+    }
+]
